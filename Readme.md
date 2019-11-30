@@ -1,6 +1,6 @@
 # wctp.io
 
-This is the repo for thew public website at wctp.io
+This is the repo for the public website at wctp.io
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c74a2aaf-f9dd-475f-80e6-f82693b18941/deploy-status)](https://app.netlify.com/sites/sad-wilson-9f8e84/deploys)
 
