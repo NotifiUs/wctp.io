@@ -6,7 +6,7 @@
 
 
 
-<div class="container px-4 mx-auto max-w-2xl sm:w-full text-center mt-8">
+<div class="container px-4 mx-auto max-w-2xl sm:w-full text-center">
     <img class="inline-block w-48 my-4 mx-auto relative" src="/assets/images/phones.svg" alt="WCTP Gateway" title="SMS aggregator for Amtelco systems">
 
     @include('_layouts.wctp')
@@ -59,9 +59,13 @@
 
 <div class="flex flex-wrap mx-0 bg-gray-400 mt-6 text-2xl border-t border-b border-gray-400 shadow-inner ">
 
-    <div class="mx-auto max-w-3xl text-center">
+    <div class="mx-auto max-w-4xl text-center">
 
         <h3 class="text-gray-600 font-extrabold mt-12 mb-10 uppercase">The modern WCTP engine</h3>
+
+        <img src="/assets/images/wctp_flow_mobile.png"
+             class="my-6 px-4 mx-auto block sm:block md:hidden lg:hidden xl:hidden"
+             title="WCTP gateway flow chart" alt="WCTP flow">
 
         <table class="my-12 mx-auto hidden md:table">
             <tbody>
