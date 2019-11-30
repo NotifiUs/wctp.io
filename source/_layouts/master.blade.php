@@ -29,8 +29,8 @@
         <meta name="twitter:image:alt" content="{{ $page->og_image_alt }}">
 
         <title>@yield('title')</title>
+        <link rel="icon" type="image/png" href="{{ $page->favicon }}">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-        <link rel="icon" type="image/svg+xml" href="{{ $page->favicon }}">
         <script src="{{ mix('js/main.js', 'assets/build') }}" defer></script>
     
     </head>
