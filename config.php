@@ -12,6 +12,6 @@ return [
     'og_image' => 'https://wctp.io/assets/image/phones.svg',
     'og_url' => 'https://wctp.io',
     'og_image_alt' => 'WCTP.io',
-    'favicon' => '/assets/images/favicon.png',
+    'favicon' => '/assets/images/gateway.svg',
 
 ];

@@ -15,7 +15,7 @@
         Become your own SMS aggregator using <span class="italic">Twilio</span>, <span class="italic">ThinQ</span>, and <span class="italic">more</span>!
     </h1>
     <h2 class="text-2xl text-center my-1 text-gray-700">
-        Audaciously crafted for the <span class="font-bold text-gray-800 italic">Amtelco</span> community.
+        Ardently crafted for the <span class="font-bold text-gray-800 italic">Amtelco</span> community.
     </h2>
     <div class="container mx-auto max-w-md my-10 text-center">
         <a href="https://github.com/notifius/wctp-gateway"
