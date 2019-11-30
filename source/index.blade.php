@@ -221,7 +221,7 @@
 <div class="mx-auto w-full text-center px-6 py-12 text-center">
 
     <a class="inline-block" href="https://notifi.us" title="NotifiUs, LLC &middot; Level up your call center">
-        <img class="my-0 py-0 w-auto max-w-sm mx-auto" src="/assets/images/notifius.png" title="Notifi,US LLC &middot; Level up your call center" alt="NotifiUs, LLC">
+        <img class="my-0 py-0 w-full max-w-sm mx-auto" src="/assets/images/notifius.png" title="Notifi,US LLC &middot; Level up your call center" alt="NotifiUs, LLC">
     </a>
     <p class="-mt-4 my-0 py-0 text-gray-400 text-xl font-bold uppercase">
         A project by Patrick Labbett
