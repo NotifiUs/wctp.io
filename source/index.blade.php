@@ -131,17 +131,6 @@
 
 <div class="flex flex-wrap mx-0 bg-gray-100 my-0 py-0 text-2xl border-t border-b border-gray-400 shadow-inner">
 
-
-    <!--
-    <div class="flex mx-auto text-center w-full mt-16">
-        <h3 class="text-3xl text-indigo-400 font-extrabold uppercase text-center mx-auto">
-            Powerful Functionality
-        </h3>
-    </div>
-    -->
-
-
-
     <div class="w-full md:w-1/2 flex mx-auto text-center px-5">
 
         <dl class="mx-auto w-auto md:mr-6">
@@ -228,6 +217,17 @@
 <div class="flex mx-auto w-full text-center px-6 py-24 bg-gray-700 text-center">
     <img class="border border-gray-400 rounded shadow w-auto lg:max-w-4xl mx-auto" src="/assets/images/wctp_admin.png" title="WCTP Gateway web interface dashboard" alt="Admin Dashboard">
 </div>
+
+<div class="mx-auto w-full text-center px-6 py-12 text-center">
+
+    <a class="inline-block" href="https://notifi.us" title="NotifiUs, LLC &middot; Level up your call center">
+        <img class="my-0 py-0 w-auto max-w-sm mx-auto" src="/assets/images/notifius.png" title="Notifi,US LLC &middot; Level up your call center" alt="NotifiUs, LLC">
+    </a>
+    <p class="-mt-4 my-0 py-0 text-gray-400 text-xl font-bold uppercase">
+        A project by Patrick Labbett
+    </p>
+</div>
+
 
 
 @include('_layouts.footer')
