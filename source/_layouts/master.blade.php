@@ -20,7 +20,7 @@
         <meta property="og:site_name" content="{{ $page->og_site_name }}">
         <meta property="og:title" content="{{ $page->og_title }}">
         <meta property="og:description" content="{{ $page->og_description }}">
-        <meta property="og:image" content="{{ $page->og_image }}">
+        <meta property="og:image" content="{{ $page->baseUrl }}{{ $page->og_image }}">
         <meta property="og:url" content="{{ $page->og_url }}">
         <meta property="og:type" content="website">
         <meta property="og:image:alt" content="{{ $page->og_image_alt }}">

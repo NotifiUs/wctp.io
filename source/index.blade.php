@@ -146,11 +146,11 @@
 
             <div class="my-12 max-w-sm">
                 <dt class="font-extrabold text-gray-800 uppercase italic text-center">
-                    <i class="fas fa-magnet fa-3x text-indigo-600"></i>
-                    <h3 class="my-2">Sticky Sending</h3>
+                    <i class="fas fa-shield-alt fa-3x text-indigo-600"></i>
+                    <h3 class="my-2">Multi-Factor Authentication</h3>
                 </dt>
                 <dd class="text-gray-600 my-2 text-xl font-semibold">
-                    Configure any number to override the outbound carrier selection when sending a message.
+                    Multi-Factor Authentication supported using Google Authenticator app.
                 </dd>
             </div>
 
@@ -186,7 +186,7 @@
 
             <div class="my-12 max-w-sm">
                 <dt class="font-extrabold text-gray-800 uppercase italic text-center">
-                    <i class="fas fa-shield-alt fa-3x text-indigo-600"></i>
+                    <i class="fas fa-lock fa-3x text-indigo-600"></i>
                     <h3 class="my-2">
                         Opinionated Security
                     </h3>
