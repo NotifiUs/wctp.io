@@ -40,10 +40,10 @@
     <div class="lg:w-4/12 sm:w-full md:w-1/2 p-6">
         <h3 class="font-extrabold uppercase italic">Professional Setup</h3>
         <p class="text-gray-600 text-xl text-center lg:text-left font-semibold">
-            Not comfortable installing on your own? Try our professional installation, setup, and support.
+            Not comfortable installing on your own? Try our professional installation and training!
         </p>
         <a class="focus:shadow-outline inline-block text-lg shadow uppercase font-bold py-3 px-4 border border-gray-300 hover:text-gray-900 text-gray-700 bg-gray-300 hover:bg-gray-400 hover:border-gray-400 rounded-lg my-4"
-           href="https://notifi.us/contact"><i class="fas fa-life-ring text-indigo-500"></i> Get Help</a>
+           href="https://store.calltheory.com/collections/services/products/sms-aggregator-setup"><i class="fas fa-life-ring text-indigo-500"></i> Learn More</a>
     </div>
 
     <div class="lg:w-4/12 sm:w-full md:w-3/4 mx-auto p-6 bg-gray-300 shadow border lg:rounded-lg border-gray-400">
