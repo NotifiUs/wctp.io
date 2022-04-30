@@ -1,20 +1,16 @@
-let mix = require('laravel-mix');
-let build = require('./tasks/build.js');
-let tailwindcss = require("tailwindcss");
+const mix = require('laravel-mix');
+require('laravel-mix-jigsaw');
 
 mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
-mix.webpackConfig({
-    plugins: [
-        build.jigsaw,
-        build.browserSync(),
-        build.watch(['source/**/*.md', 'source/**/*.php', 'source/**/*.scss', '!source/**/_tmp/*']),
-    ]
-});
 
-mix.js('source/_assets/js/main.js', 'js')
-    .sass('source/_assets/sass/main.scss', 'css')
-    .options({
-        processCssUrls: false,
-        postCss: [ tailwindcss('./tailwind.config.js') ],
-    }).version();
+mix.jigsaw()
+    .js('source/_assets/js/main.js', 'js').vue()
+    .css('source/_assets/css/main.css', 'css/main.css', [
+        require('postcss-import'),
+        require('tailwindcss/nesting'),
+        require('tailwindcss'),
+    ])
+    .options({ processCssUrls: false })
+    .sourceMaps()
+    .version();

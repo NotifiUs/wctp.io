@@ -1,4 +1,11 @@
 [build]
-command = "yarn run production"
+command = "npm run prod"
 publish = "build_production"
-environment = { PHP_VERSION = "7.2" }
+environment = { PHP_VERSION = "8.0" }
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
